@@ -14,5 +14,8 @@ public class SampleTest1 extends BaseClass{
 	@Test(groups="Smoke")
 	public void test1_3() {
 		System.out.println("Execute test1.3");
+		System.out.println(System.getProperty("browser"));
+		System.out.println(System.getProperty("url"));
+		System.out.println(System.getProperty("suite"));
 	}
 }
