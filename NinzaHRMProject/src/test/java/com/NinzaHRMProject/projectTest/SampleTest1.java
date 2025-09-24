@@ -15,7 +15,7 @@ public class SampleTest1 extends BaseClass{
 	public void test1_2() throws EncryptedDocumentException, IOException {
 		System.out.println("Execute test1.2");
 		ExcelUtility eLib=new ExcelUtility();
-		System.out.println(eLib.getDataFromExcel("prod", 2, 1));
+		System.out.println(eLib.getDataFromExcel("prod", 1, 1));
 		eLib.setDataIntoExcel("prod", 6, 1, "SetValue-Working");
 		
 	}
