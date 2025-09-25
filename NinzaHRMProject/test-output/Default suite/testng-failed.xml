@@ -5,9 +5,10 @@
     <classes>
       <class name="com.NinzaHRMProject.projectTest.SampleTest1">
         <methods>
+          <include name="test1_3"/>
           <include name="test1_2"/>
-          <include name="cofigAS"/>
           <include name="configAC"/>
+          <include name="cofigAS"/>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAM"/>

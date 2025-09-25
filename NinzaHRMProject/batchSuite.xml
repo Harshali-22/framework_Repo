@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.NinzaHRMProject.projectTest.SampleTest1"/>
-      <class name="com.NinzaHRMProject.projectTest.SampleTest3"/>
       <class name="com.NinzaHRMProject.projectTest.SampleTest2"/>
+      <class name="com.NinzaHRMProject.projectTest.SampleTest3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
