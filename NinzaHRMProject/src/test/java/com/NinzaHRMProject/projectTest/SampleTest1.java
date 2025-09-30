@@ -18,6 +18,7 @@ public class SampleTest1 extends BaseClass{
 		System.out.println(System.getProperty("browser"));
 		System.out.println(System.getProperty("url"));
 		System.out.println(System.getProperty("suite"));
+		System.out.println("Hello");
 	}
 	
 	@Test(groups="Regression")
